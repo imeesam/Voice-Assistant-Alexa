@@ -73,7 +73,7 @@ if __name__ == "__main__":
                 speechtx(f"Current year is {year}")
             
             elif "your creator" in data1:
-                creator = "I was made by Meesam Abbas, a known Python programmer."
+                creator = "I was made by Meesam Abbas, a well-known Python programmer."
                 speechtx(creator)
             
             elif "open google" in data1:
@@ -89,7 +89,7 @@ if __name__ == "__main__":
                 speechtx(f"temprature now is {temp} centigrade.")    
             
             elif "play song" in data1:
-                address = "D:\song"
+                address = "Put your addreess over here where your songs are present"
                 listsong = os.listdir(address)
                 os.startfile(os.path.join(address,listsong[0]))
             
